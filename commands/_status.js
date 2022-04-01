@@ -22,6 +22,6 @@ let TRX = Libs.ResourcesLib.anotherChatRes("userpayment", "global");
 let tota = Libs.ResourcesLib.anotherChatRes("tota", "global")
 let depo = Libs.ResourcesLib.anotherChatRes("depo", "global")
 let reinvest = Libs.ResourcesLib.anotherChatRes("reinvest", "global");
-Bot.sendMessage("*👤 Usuarios Totales:* " +tota.value()+ "\n\n*➕ Total Depositado: *\n" +depo.value().toFixed(8) + " TRX " + "\n\n*♻️ Total Reinvertido: *\n" +reinvest.value().toFixed(8) + " TRX " + "\n\n*➖ Total Retirado:*\n" +TRX.value().toFixed(8) + " TRX ")
+Bot.sendMessage("*👤 Usuarios Totales:* " +tota.value()+ "\n\n*➕ Total Depositado: *\n" +depo.value().toFixed(8) + " USD ")
 }
 
