@@ -26,6 +26,6 @@ let refcom = Libs.ResourcesLib.userRes("refcom");
 let withdraw = Libs.ResourcesLib.userRes("withdraw");
 var time = Libs.DateTimeFormat.format(new Date(),"dd/m/yyyy h:M:s T")+"M"
 
-Bot.sendKeyboard("🏦 Inversiones,➖ Retiros,\n🚫Exit","*👤 Saldo de la cuenta:  *\n\n*➖ Saldo extraíble: *\n"+res.value().toFixed(8) + " TRX\n\n*💳 Inversiones activas: * \n" +deposit.value().toFixed(8) + " TRX\n\n*💰Beneficio total: * \n" +profit.value().toFixed(8) + " TRX\n\n*👥 Ganancias Referidos:*\n" +refcom.value().toFixed(8) +" TRX\n\n*💸 Total retirado:*\n" +withdraw.value().toFixed(8) + " TRX")
+Bot.sendKeyboard("🏦 Inversiones,➖ Retiros,\n🚫Exit","*👤 Saldo de la cuenta:  *\n\n*💳 Saldo Depositado: * \n" +deposit.value().toFixed(8) + " USD\n\n*👥 Ganancias Referidos:*\n" +refcom.value().toFixed(8) +" USD\n\n*")
 
 }
