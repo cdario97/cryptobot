@@ -21,4 +21,4 @@ var info =
   ")";
 let res = Libs.ResourcesLib.userRes("balance");
 let id = "@TronUniverseV1Bot"
-Bot.sendKeyboard("💢 Saldo ~ " + res.value().toFixed(8) + " TRX 💢" + "\n➕ Depositar,➰ Re-Invertir,➖ Retirar,\n📊 Estadísticas,🎙 Payment Hub,\n🎁 Bonus,👥 Invitar,🖥 Calculador,\n💡 About,💳 Wallet, 📬 Soporte","🔝 Menú Principal")
+Bot.sendKeyboard("💢 Saldo ~ " + res.value().toFixed(8) + " USD 💢" + "\n➕ Depositar,📊 Estadísticas,🎁 Bonus\n👥 Invitar,💡 Acerca de,💳 Wallet\n📬 Soporte","🔝 Menú Principal")
